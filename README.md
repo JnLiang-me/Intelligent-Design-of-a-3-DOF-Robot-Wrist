@@ -28,8 +28,8 @@
 
 由于 GitHub 文件大小限制，ANSYS 仿真结果文件（`.rst`、`.mechdb` 等，共约 3.2 GB）未直接上传，已打包存放于百度网盘：
 
-> 🔗 **百度网盘链接**：`<待填写>`
-> 🔑 **提取码**：`<待填写>`
+> 🔗 **百度网盘链接**：[pan.baidu.com/s/1c_65njIVnFIZcQOVqfNchQ](https://pan.baidu.com/s/1c_65njIVnFIZcQOVqfNchQ?pwd=8888)
+> 🔑 **提取码**：`8888`
 
 下载后将 `4×4截面/` 文件夹解压并覆盖仓库中的同名文件夹，即可用 ANSYS Workbench 打开项目查看完整仿真结果。
 
