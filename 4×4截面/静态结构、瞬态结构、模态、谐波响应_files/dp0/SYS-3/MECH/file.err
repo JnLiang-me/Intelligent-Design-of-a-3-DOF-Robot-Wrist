@@ -1,0 +1,43 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       21:41:59
+
+ *** WARNING ***                         CP =       1.016   TIME= 21:42:00
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       1.016   TIME= 21:42:00
+ Material number 2 (used by element 6417) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       4.578   TIME= 21:42:01
+ A reference force value times the tolerance is used by the              
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference FORCE CONVERGENCE VALUE = 0 is less than a threshold.  This   
+ threshold is internally calculated.  You can overwrite it by            
+ specifying MINREF on the CNVTOL command.  Check results carefully.      
+
+ *** WARNING ***                         CP =      64.672   TIME= 21:42:21
+ Material number 2 (used by element 6417) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      69.594   TIME= 21:42:22
+ A reference force value times the tolerance is used by the              
+ Newton-Raphson method for checking convergence.  The calculated         
+ reference FORCE CONVERGENCE VALUE = 0 is less than a threshold.  This   
+ threshold is internally calculated.  You can overwrite it by            
+ specifying MINREF on the CNVTOL command.  Check results carefully.      
+
+ *** WARNING ***                         CP =    4312.688   TIME= 22:04:58
+ Material number 2 (used by element 6417) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =   10288.844   TIME= 22:40:00
+ During this session the elapsed time exceeds the CPU time by 42%.       
+ Often this indicates either a lack of physical memory (RAM) required    
+ to efficiently handle this simulation or it indicates a particularly    
+ slow hard drive configuration.  This simulation can be expected to run  
+ faster on identical hardware if additional RAM or a faster hard drive   
+ configuration is made available.  For more details, please see the      
+ ANSYS Performance Guide which is part of the ANSYS Help system.         

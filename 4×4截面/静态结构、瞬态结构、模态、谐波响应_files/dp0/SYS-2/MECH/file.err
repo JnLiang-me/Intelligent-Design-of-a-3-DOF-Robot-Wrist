@@ -1,0 +1,33 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       09:30:23
+
+ *** WARNING ***                         CP =       1.000   TIME= 09:30:25
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       1.062   TIME= 09:30:25
+ Material number 3 (used by element 6229) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       3.594   TIME= 09:30:26
+ Material number 3 (used by element 6229) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      15.234   TIME= 09:30:31
+ To avoid duplication when using the LVSCALE command, delete all loads   
+ unless already deleted.                                                 
+
+ *** WARNING ***                         CP =      15.234   TIME= 09:30:31
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =      15.297   TIME= 09:30:31
+ Material number 3 (used by element 6229) should normally have at least  
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      16.906   TIME= 09:30:33
+ Element nodal forces were not requested (OUTRES,NLOAD) during the modal 
+ solution.  Any subsequent reaction force output (e.g.  PRRSOL) will     
+ therefore be of type STATIC only.                                       

@@ -1,0 +1,229 @@
+/batch
+/config,noeldb,1     ! force off writing results to database
+*get,_wallstrt,active,,time,wall
+! ANSYS input file written by Workbench version 2021 R1
+/com,*********** Resuming The ANSYS db File from Modal Solution ***********
+resume,file,db
+*DIM,_wb_ProjectScratch_dir_Harmonic,string,248
+_wb_ProjectScratch_dir_Harmonic(1)= 'E:\毕业设计\workbench\4×4截面\_ProjectScratch\ScrDA4A\'
+*DIM,_wb_SolverFiles_dir_Harmonic,string,248
+_wb_SolverFiles_dir_Harmonic(1)= 'E:\毕业设计\workbench\4×4截面\静态结构、瞬态结构、模态、谐波响应_files\dp0\SYS-2\MECH\'
+*DIM,_wb_userfiles_dir_Harmonic,string,248
+_wb_userfiles_dir_Harmonic(1)= 'E:\毕业设计\workbench\4×4截面\静态结构、瞬态结构、模态、谐波响应_files\user_files\'
+/title,_________________--____ (C5)
+! ****** Begin Custom Load Command Snippet ******
+/COM, ACT Extensions:
+/COM,     LSDYNA, 2021.1
+/COM,     5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+/COM,
+! ****** End   Custom Load Command Snippet ******
+/nopr
+/prep7
+/com,*********** Defining Loadings ***********
+/com,*********** Define Force Using Surface Effect Elements ***********
+local,12,0,0.,0.,0.,0.,0.,0.
+csys,0
+et,3,154
+eblock,10,,,45
+(15i9)
+     6229        3        3        3       12     2442     2439     2468     2468    16665    16668     2468    16676
+     6230        3        3        3       12     2461     2451     2466     2466    16699    16700     2466    16721
+     6231        3        3        3       12     2449     2458     2459     2459    16693    16718     2459    16694
+     6232        3        3        3       12     2482     2450     2471     2471    16698    16697     2471    16735
+     6233        3        3        3       12     2456     2455     2465     2463    16709    16710    16724    16713
+     6234        3        3        3       12     2465     2442     2468     2463    16675    16676    16725    16724
+     6235        3        3        3       12     2437     2467     2436     2435    16659    16656    16651    16652
+     6236        3        3        3       12     2438     2468     2437     2435    16664    16660    16652    16653
+     6237        3        3        3       12     2438     2435     2447     2448    16653    16654    16689    16662
+     6238        3        3        3       12     2436     2446     2447     2435    16655    16686    16654    16651
+     6239        3        3        3       12     2467     2464     2446     2436    16726    16687    16655    16656
+     6240        3        3        3       12     2467     2437     2443     2460    16659    16657    16679    16720
+     6241        3        3        3       12     2438     2441     2463     2468    16661    16673    16725    16664
+     6242        3        3        3       12     2468     2439     2466     2437    16668    16667    16658    16660
+     6243        3        3        3       12     2466     2451     2443     2437    16700    16678    16657    16658
+     6244        3        3        3       12     2438     2459     2440     2441    16663    16671    16669    16661
+     6245        3        3        3       12     2438     2448     2449     2459    16662    16691    16694    16663
+     6246        3        3        3       12     2442     2453     2452     2439    16674    16702    16666    16665
+     6247        3        3        3       12     2439     2452     2461     2466    16666    16703    16721    16667
+     6248        3        3        3       12     2440     2457     2462     2441    16670    16716    16672    16669
+     6249        3        3        3       12     2459     2458     2457     2440    16718    16715    16670    16671
+     6250        3        3        3       12     2441     2462     2456     2463    16672    16712    16713    16673
+     6251        3        3        3       12     2460     2445     2464     2467    16683    16684    16726    16720
+     6252        3        3        3       12     2465     2454     2453     2442    16707    16705    16674    16675
+     6253        3        3        3       12     2460     2443     2444     2445    16679    16677    16680    16683
+     6254        3        3        3       12     2451     2450     2444     2443    16696    16681    16677    16678
+     6255        3        3        3       12     2450     2482     2481     2444    16698    16757    16682    16681
+     6256        3        3        3       12     2444     2481     2480     2445    16682    16755    16685    16680
+     6257        3        3        3       12     2445     2480     2474     2464    16685    16743    16727    16684
+     6258        3        3        3       12     2464     2474     2476     2446    16727    16742    16688    16687
+     6259        3        3        3       12     2476     2475     2447     2446    16745    16690    16686    16688
+     6260        3        3        3       12     2447     2475     2485     2448    16690    16746    16692    16689
+     6261        3        3        3       12     2448     2485     2484     2449    16692    16762    16695    16691
+     6262        3        3        3       12     2449     2484     2483     2458    16695    16760    16719    16693
+     6263        3        3        3       12     2451     2470     2471     2450    16701    16732    16697    16696
+     6264        3        3        3       12     2461     2477     2470     2451    16722    16733    16701    16699
+     6265        3        3        3       12     2452     2478     2477     2461    16704    16749    16722    16703
+     6266        3        3        3       12     2453     2479     2478     2452    16706    16751    16704    16702
+     6267        3        3        3       12     2454     2469     2479     2453    16708    16729    16706    16705
+     6268        3        3        3       12     2465     2486     2469     2454    16728    16730    16708    16707
+     6269        3        3        3       12     2455     2487     2486     2465    16711    16766    16728    16710
+     6270        3        3        3       12     2456     2488     2487     2455    16714    16768    16711    16709
+     6271        3        3        3       12     2462     2472     2488     2456    16723    16738    16714    16712
+     6272        3        3        3       12     2457     2473     2472     2462    16717    16737    16723    16716
+     6273        3        3        3       12     2458     2483     2473     2457    16719    16740    16717    16715
+-1
+esel,s,type,,3
+keyop,3,2,1                ! Apply load in local coordinate system
+keyop,3,7,1                ! Use original area so load is constant in large deformation
+esel,all
+
+*DIM,_loadvari59x,TABLE,1,1,1,TIME,
+! Time values
+_loadvari59x(1,0,1) = 1.
+! Load values
+_loadvari59x(1,1,1) = 0.
+
+
+*DIM,_loadvari59xi,TABLE,1,1,1,TIME,
+! Time values
+_loadvari59xi(1,0,1) = 1.
+! Load values
+_loadvari59xi(1,1,1) = 0.
+
+
+*DIM,_loadvari59y,TABLE,1,1,1,TIME,
+! Time values
+_loadvari59y(1,0,1) = 1.
+! Load values
+_loadvari59y(1,1,1) = -17684.2403893311
+
+
+*DIM,_loadvari59yi,TABLE,1,1,1,TIME,
+! Time values
+_loadvari59yi(1,0,1) = 1.
+! Load values
+_loadvari59yi(1,1,1) = 0.
+
+
+*DIM,_loadvari59z,TABLE,1,1,1,TIME,
+! Time values
+_loadvari59z(1,0,1) = 1.
+! Load values
+_loadvari59z(1,1,1) = 0.
+
+
+*DIM,_loadvari59zi,TABLE,1,1,1,TIME,
+! Time values
+_loadvari59zi(1,0,1) = 1.
+! Load values
+_loadvari59zi(1,1,1) = 0.
+
+fini
+/com,*********** Performing Modal Re-start ***********
+/gopr
+/solu
+antype,modal,restart    ! restarting the modal analysis
+modcontrol,on
+thexpand,off     ! ignore thermal strains
+mxpand,,,,yes,,yes     ! expand requested results and write them to file.mode
+outres,erase
+outres,all,none
+outres,nsol,all
+outres,eangl,all
+outres,etmp,all
+outres,veng,all
+outres,strs,all
+outres,epel,all
+outres,rsol,all
+outres,cont,all
+fdele,all,all
+sfdele,all,all
+sfedele,all,all,all
+acel,0,0,0                 ! zero out the acceleration
+/com,*********** Setting and Solving Each Load Step ***********
+esel,s,type,,3
+nsle
+sfe,all,2,pres,1,1
+nsel,all
+esel,all
+solve
+/com,**********************
+/com *************** Write FE CONNECTORS ********* 
+CEWRITE,file,ce,,INTE
+fini
+/com,*********** Performing MSUP Harmonic Solve ***********
+/solu
+antype,harm
+hropt,msup
+thexpand,off     ! ignore thermal strains
+hrout,off
+kbc,1
+harfrq,0.000000,8000.000000
+nsub,100
+dmprat,5.e-002      ! Constant Damping Ratio
+fdele,all,all
+sfdele,all,all
+sfedele,all,all,all
+acel,0,0,0                 ! zero out the acceleration
+lvscale,0,1
+/com,*********** Scaling Each Load Step for MSUP Solve ***********
+lvscale,%_loadvari59y%,1
+! *********** WB SOLVE COMMAND ***********
+! check interactive state
+*get,ANSINTER_,active,,int
+*if,ANSINTER_,ne,0,then
+/eof
+*endif
+solve
+
+fini
+*get,_wallasol,active,,time,wall
+/nopr
+*get,_numnode,node,0,count
+*get,_numelem,elem,0,count
+*get, _MAXELEMNUM, elem, 0, NUM, MAX
+*get, _MAXNODENUM, node, 0, NUM, MAX,,,INTERNAL
+*get, _MAXELEMTYPE, etyp, 0, NUM, MAX
+*get, _MAXREALCONST, real, 0, NUM, MAX
+/gopr
+! ------- MSUP EXPANSION PASS -------
+/solu
+expass,on
+hrexp,all
+outres,erase
+outres,all,none
+outres,nsol,all
+outres,eangl,all
+outres,etmp,all
+outres,veng,all
+outres,strs,all
+outres,epel,all
+outres,rsol,all
+outres,cont,all
+numexp,all,,,yes        ! expand results at all freq. and calculate requested result items
+! *********** WB SOLVE COMMAND ***********
+! check interactive state
+*get,ANSINTER_,active,,int
+*if,ANSINTER_,ne,0,then
+/eof
+*endif
+solve
+fini
+/post1
+xmlo,ENCODING,ISO-8859-1
+xmlo,parm
+/xml,parm,xml
+fini
+/gopr
+*get,_walldone,active,,time,wall
+_preptime=(_wallbsol-_wallstrt)*3600
+_solvtime=(_wallasol-_wallbsol)*3600
+_posttime=(_walldone-_wallasol)*3600
+_totaltim=(_walldone-_wallstrt)*3600
+*get,_dlbratio,active,0,solu,dlbr
+*get,_combtime,active,0,solu,comb
+/com,--- Total number of nodes = %_numnode%
+/com,--- Total number of elements = %_numelem%
+/com,--- Element load balance ratio = %_dlbratio%
+/com,--- Time to combine distributed files = %_combtime%
+/wb,file,end               ! done with WB generated input

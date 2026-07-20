@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Temporary files
+*~
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# ANSYS result files (too large, can be regenerated)
+*.rst
+*.full
+*.mechdb
+*.mode
+*.esav
+*.db
+*.PCS
+*.gst
+*.mntr
+*.aapresults
+*.engd
+*.lock
